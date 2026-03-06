@@ -1,6 +1,32 @@
-Enumerating objects: 3, done.
+Gitlab Tutorials: 3/6/2025
+Github Account: Early 2020
+Github Repo: https://github.com/Auxz/assignment2
+1. Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (2/2), 222 bytes | 222.00 KiB/s, done.
 Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+2. 9 commits, I used git rev-list --count HEAD
+3. README last modified 03/06 at 16:00 EST, I used command git log -1 --README.md
+4. Branches are typically used so developers can work on new features or bug fixes without affecting the main code base.
+They are also useful for allowing multiple people to work on different changes at the same time before
+merging everything together.
+5. Git log shows the commit history of the repository such as past commits or authors. Git status shows the status
+of your working directory and staging area. 
+6. git log -- Vehicle.h
+7. git log --grep="file"
+8. Inheritance is when one class derives from another class and "inherits" its data members and functions.
+Polymorphism is the ability for the same function to perform differently depending on the context.
+Encapsulation is bundling data and the methods that utilize said data inside a class, then restricting direct access
+to internal functionality of that class by using access modifiers.
+9. In the integration manager workflow, each developer pushes to their own public repo, and pulls from the central
+repository. The integration manager is then responsible for resolving integration conflicts and merging
+changes into the main project. In a dictators and lieutenants workflow, developers send their changes to lieutenants
+who then merge and resolve conflicts, and then the dictator merges the lieutenants' changes and pushes to the central
+repository.
+10. With 100 developers, the dictator and lieutenants workflow scales much better as integration work is divided among
+several lieutenants instea of forcing everyone to directly coordinate through a single shared repository. This helps
+in reducing bottlenecks and lowers the amount of conflict that individual developers need to deal with. The centralized
+workflow forces all developers to pull and resolve conflicts in one central repository which becomes very difficult
+in a large team.
